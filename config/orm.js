@@ -8,10 +8,10 @@ function printQuestionMarks(num) {
   return Array.toString();
 }
 
-function objToSql(obj) {
+function objToSql(ob) {
   var arr = [];
-  for(var key in obj){
-    var value = obj[key];
+  for(var key in ob){
+    var value = ob[key];
     if (Object.hasOwnProperty.call(ob, key)) {
       if(typeof value === "string" && ValidityState.indexOf(" ") >= 0) {    //concatonates values
         value = "'" + value + "'" ;
