@@ -51,7 +51,7 @@ This assignment had some big challenges, like many of the other homeworks that w
 ## Gif
 
 Here is the Eat-Da-Burger application  in action:
-![gif]()
+![gif](public/assets/img/eat-da-burger.gif)
 
 ---
 
