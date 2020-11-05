@@ -4,7 +4,6 @@
       "password": "itu4iud6ebc4h5uh",
       "database": "gji7kqt96pjl65ig",
       "host": "qf5dic2wzyjf1x5x.cbetxkdyhwsb.us-east-1.rds.amazonaws.com",
-      "port": 3306,
       "dialect": "mysql"
     },
     "test": {
