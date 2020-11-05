@@ -3,9 +3,9 @@ var connection = require("../config/connection.js");
 function printQuestionMarks(num) {
   var arr = [];
   for(var i = 0; i < num; i++) {
-    Array.push("?");
+    arr.push("?");
   }
-  return Array.toString();
+  return arr.toString();
 }
 
 function objToSql(ob) {
@@ -13,7 +13,7 @@ function objToSql(ob) {
   for(var key in ob){
     var value = ob[key];
     if (Object.hasOwnProperty.call(ob, key)) {
-      if(typeof value === "string" && ValidityState.indexOf(" ") >= 0) {    //concatonates values
+      if(typeof value === "string" && value.indexOf(" ") >= 0) {    //concatonates values
         value = "'" + value + "'" ;
       }
       arr.push(key + "=" + value);
